@@ -1,5 +1,5 @@
 # LearningToProtect
-Implementation of [Learning to Protect Communications with Adversarial Neural Cryptography](https://arxiv.org/abs/1610.06918) in PyTorch
+Implementation of [Learning to Protect Communications with Adversarial Neural Cryptography](https://arxiv.org/abs/1610.06918) in PyTorch 2.x
 
 **Caution**: Details of implementation differ much from the original paper. I tried to use dense(fc) layers with relu activation, instead of dense+conv1d+sigmoid. See `model/model.py`.
 
